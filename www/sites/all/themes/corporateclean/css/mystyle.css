@@ -1,0 +1,257 @@
+
+/** Logo **/
+
+#header #header-inside {
+  padding: 20px 0;
+  height: 40%;
+}
+
+#header #header-inside #header-inside-left {
+  opacity: 0.9;
+  background: #fff;
+  width: 35%;
+}
+
+#header #header-inside #header-inside-left.grid_8 {
+  margin-left: 0;
+}
+
+#header #header-inside.container_12{
+  margin-left: 0;
+}
+
+/** Overwrite Theme Wrapping **/
+
+body {
+  height: 100%;
+  background-image: url('../images/bg.png');
+  background-repeat: repeat;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+#header {
+  width: 960px;
+  height: 25%;
+  overflow: hidden;
+  background-image: url('../images/nb_header.png');
+  margin: 0 auto;
+  max-height: 241px;
+}
+
+#content {
+  width: 960px;
+  height: 58%; 
+  margin: 0 auto;
+  min-height: 560px;
+}
+
+#footer {
+  width: 960px;
+  padding: 0;
+  height: 16.9%;
+  margin: 0 auto;
+    min-height: 163px;
+}
+
+#footer-bottom {
+  display: none;
+  width: 960px;
+  padding: 0;
+  height: 4.9%;
+  margin: 0 auto;
+
+}
+
+
+
+
+#banner, #header-menu {
+  display: none;
+}
+
+#content #content-inside {
+  padding: 0;
+}
+
+#content #content-inside #main {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#content #content-inside.container_12 {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+
+#content #content-inside.container_12 .grid_12 {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#content #content-inside .home-slider .views-slideshow-controls-top #widget_pager_top_page-page, #content #content-inside .home-slider #views_slideshow_cycle_main_page-page {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+#content #content-inside .home-slider .views-slideshow-controls-top {
+  background: #222222;
+  border-top: 1px solid #353535;
+  border-bottom: 1px solid #353535;
+}
+
+/** Slideshow **/
+
+#content #content-inside .home-slider #views_slideshow_cycle_main_page-page #views_slideshow_cycle_teaser_section_page-page .views-slideshow-cycle-main-frame-row {
+  width: 940px;
+  padding: 20px 10px 0px 10px;
+}
+
+#content #content-inside .home-slider #views_slideshow_cycle_main_page-page #views_slideshow_cycle_teaser_section_page-page #views_slideshow_cycle_div_page-page_2 {
+  width: 960px !important;
+}
+
+.views-field-body {
+  float: left;
+  width: 100%;
+}
+
+#content #content-inside h2 {
+  margin-top: 0;
+}
+
+#content #content-inside h1 {
+  margin-top: 1em;
+}
+
+/** Slideshow Pager **/
+
+#content #content-inside #widget_pager_top_page-page .views-slideshow-pager-field-item {
+  border-right: 1px solid #353535;
+  padding: 0 10px 0 10px;
+  float: left;
+  width: 171px;
+  height: 35px;
+  text-align: center;
+  color: #e4e4e4;
+}
+
+#content #content-inside #widget_pager_top_page-page .views-slideshow-pager-field-item.views-row-last {
+  border-right: none;
+}
+
+#content #content-inside #widget_pager_top_page-page .views-slideshow-pager-field-item.active {
+  color: #0081ac;
+}
+#content #content-inside #widget_pager_top_page-page .views-slideshow-pager-field-item .views-field-field-link-title {
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+
+#content #content-inside #widget_pager_top_page-page .views-slideshow-pager-field-item .views-field-field-link-title:hover {
+  cursor: pointer;
+  color: #0081AC;
+}
+
+/** Contact Slide **/
+
+.webform-client-form input.form-text {
+  width: 60%;
+}
+
+.webform-client-form  #webform-component-ihre-nachricht textarea {
+  height: 105px;
+  width: 80%;
+  margin: 0;
+}
+
+.webform-client-form  input#webform-component-ihre-e-mail-adresse, .webform-client-form  input#edit-submitted-ihr-name {
+  margin: 0;
+}
+
+/** Referenz Slide **/
+.views-field-field-bilder a {
+  float: left;
+  padding: 0 10px 0 0;
+}
+
+.views-field-field-bilder img.masked, .views-field-field-bilder .field-type-image img {
+  margin: 0 0 10px 0;
+  opacity: 0.8;
+}
+
+/** Mobile Chrome Webkit font adjustment **/
+
+#content #main .views-field-body p, 
+#content #main .views-field-body h1, 
+#content #main .views-field-body h2, 
+#content #main .views-field-body li,
+#content #main .views-field-body ul {
+  max-height: 1000000px;
+}
+
+
+/** Style Red **/
+
+#content #content-inside .home-slider .views-slideshow-controls-top {
+  background: #943634 !important;
+  border-top: 1px solid #943634 !important;
+  border-bottom: 1px solid #943634 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #943634;
+}
+
+#block-block-1 h2, #block-block-2 h2, #block-block-3 h2 {
+  font-weight: bold;
+}
+
+#content #content-inside #widget_pager_top_page-page .views-slideshow-pager-field-item.active {
+  color: #000;
+  font-weight: bold;
+}
+
+#content #content-inside #widget_pager_top_page-page .views-slideshow-pager-field-item {
+  color: #fff;
+}
+
+#content #content-inside #widget_pager_top_page-page .views-content-field-link-title:hover {
+  color: #000;
+}
+
+.links ul li a, a.more, #comments ul.links li a, input[type="submit"], input[type="reset"], input[type="button"] {
+  color: #fefefe;
+  text-shadow: 0 1px 1px #003547;
+  background: #943634;
+  background-image: -ms-linear-gradient(top, #943634 0%, #943634 100%);
+  background-image: -moz-linear-gradient(top, #943634 0%, #943634 100%);
+  background-image: -o-linear-gradient(top, #943634 0%, #943634 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #943634), color-stop(1, #943634));
+  background-image: -webkit-linear-gradient(top, #943634 0%, #943634 100%);
+  background-image: linear-gradient(top, #943634 0%, #943634 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#943634', endColorstr='#943634');
+  -webkit-box-shadow: 0px 1px 2px #939da2;
+  -moz-box-shadow: 0px 1px 2px #939da2;
+  box-shadow: 0px 1px 2px #939da2;
+}
+
+.links ul li a:hover, a.more:hover, #comments ul.links li a:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+  background-image: -ms-linear-gradient(top, #943634 0%, #943634 100%);
+  background-image: -moz-linear-gradient(top, #943634 0%, #943634 100%);
+  background-image: -o-linear-gradient(top, #943634 0%, #943634 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #943634), color-stop(1, #943634));
+  background-image: -webkit-linear-gradient(top, #943634 0%, #943634 100%);
+  background-image: linear-gradient(top, #943634 0%, #943634 100%);
+}
